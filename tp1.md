@@ -20,3 +20,12 @@ On va créer un instantané de debian_base avec virtualbox pour sauvegarder la m
 Quand on effectue cette commande et qu'on redémarre le grub ne peut plus se lancer et le system entre en rescue mode.
 
 Quand on restaure la VM au moment du snapshot, la machien démarre sans problème en revenant à son ancien état.
+
+##Configuration réseau
+
+On va modifier la configuration de la machine virtuelle "debian base" se sorte à avoir un accès par pont sur le réseau.
+Si on tape la command "ip addr show", on peut visualiser son addresse ip.
+
+Si alors on entre la commande lynx. Nous voilà sur un navigateur web en mode texte où l'on peut parcourir toutes les pages web
+transcrites en texte.
+
