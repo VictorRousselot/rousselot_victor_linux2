@@ -27,5 +27,4 @@ On va modifier la configuration de la machine virtuelle "debian base" se sorte �
 Si on tape la command "ip addr show", on peut visualiser son addresse ip.
 
 Si alors on entre la commande lynx. Nous voilà sur un navigateur web en mode texte où l'on peut parcourir toutes les pages web
-transcrites en texte.
-
+transcrites en texte. Quand on essaye de se rendre sur le moteur de recherche startpage, il faut qu'on s'authentifie au réseau de l'université d'Angers. Cela permettra ainsi de pouvoir continuer le TP car on ne peut s'authentifier que sur le navigateur.
